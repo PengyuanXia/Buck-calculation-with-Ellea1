@@ -107,3 +107,9 @@ python main.py
 ## Disclaimer
 
 This automation script is an independent tool created to interface with Ellea1. It is not affiliated with or endorsed by Professor Eyal Levenberg or DTU.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+*Note: The Ellea1 Excel software is the intellectual property of Prof. Eyal Levenberg and is subject to its own license terms.*
