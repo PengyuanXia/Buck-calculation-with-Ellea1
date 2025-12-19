@@ -6,11 +6,11 @@ import glob, os
 EXCEL_CALCULATOR_FILE = r'C:\Path\To\Your\Ellea1_FWD_Excel_Worksheet.xlsx'
 
 ###################################################################
-INPUT_FILES = r"C:\Path\To\Inputs\Your_Inputs.csv"
+# INPUT_FILES = r"C:\Path\To\Inputs\Your_Inputs.csv"
 ###################################################################
-# In case of multiple files, uncomment below and comment above#####
+# In case of specific files, uncomment abvoe and comment below#####
 ###################################################################
-# INPUT_FILES = glob.glob(r"C:\Path\To\Inputs\*.csv")
+INPUT_FILES = glob.glob(r"C:\Path\To\Inputs\*.csv")
 ###################################################################
 
 OUTPUT_DIRECTORY = r"C:\Path\To\Outputs"
@@ -112,4 +112,5 @@ def main():
     print("--- Finished Successfully ---")
 
 if __name__ == '__main__':
+
     main()
